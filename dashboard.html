@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dark">
+
+<div class="layout">
+
+  <aside class="sidebar">
+    <h2>AutoTube</h2>
+    <ul>
+      <li>Dashboard</li>
+      <li>Upload Video</li>
+      <li>Schedule</li>
+      <li>Channels</li>
+      <li>Settings</li>
+    </ul>
+    <button onclick="toggleMode()">Toggle Mode</button>
+  </aside>
+
+  <main class="content">
+    <h1>Dashboard Overview</h1>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Total Videos</h3>
+        <p>0</p>
+      </div>
+
+      <div class="card">
+        <h3>Scheduled</h3>
+        <p>0</p>
+      </div>
+
+      <div class="card">
+        <h3>Status</h3>
+        <p id="status">Checking...</p>
+      </div>
+    </div>
+  </main>
+
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
